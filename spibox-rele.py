@@ -23,7 +23,7 @@ def photo():
     for i in range(1,4): # Determina el numero de fotos ???
         capturename = get_file_name()
         print('Movimiento detectado! Tomando fotos.')
-        cmd="raspistill -w 640 -h 480 -n -t 100 -q 65 -e jpg -th none -o /home/pi/spibox/capture/" + capturename+"_%d.jpg" % (i)
+        cmd="raspistill -w 640 -h 480 -n -t 100 -q 65 -e jpg -th none -o /home/pi/SPiBox/capturas/" + capturename+"_%d.jpg" % (i)
         camerapid = subprocess.call(cmd,shell=True)
 
 GPIO.setmode(GPIO.BCM)
