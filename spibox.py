@@ -1,5 +1,5 @@
 # Activa el detector de movimiento de SPiBox en el PIN 4
-# Conecta el relé al PIN 26 de la Raspberry
+# Conecta el rele al PIN 26 de la Raspberry
 # Al recibir aviso de movimiento saca una foto y activa el interruptor o luz
 
 # PENDIENTE

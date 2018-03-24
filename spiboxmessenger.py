@@ -1,5 +1,6 @@
 # spiboxmessenger.py
-# busca imágenes en el directorio de capturas y las envía por correo. Luego las archiva.
+# busca imagenes en el directorio de capturas y las envia por correo. Luego las archiva.
+
 import os
 import subprocess
 import ConfigParser
